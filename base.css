@@ -55,6 +55,12 @@ ul#menu {
 div#info {
         margin:0px 20px;
 }
+#info a {
+        text-decoration:none; /*下線無し*/
+}
+#info a:hover{
+        text-decoration:underline; /*リンクにマウスが乗ったら下線を表示*/
+}
 
 /* ようこそ */
 h2 {
