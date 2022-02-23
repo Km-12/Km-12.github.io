@@ -15,7 +15,7 @@ div#pagebody {
 p {
         font-size: 15px;
         line-height: 2.0em;
-        padding:0px 0px 0px 25px;
+        padding:0px 0px 6px 25px;
 }
 
 /* ヘッダー */
@@ -67,7 +67,6 @@ div#infobox {
         text-decoration:underline; /*リンクにマウスが乗ったら下線を表示*/
 }
 
-/* ようこそ */
 h2 {
   position: relative;
   padding: 0.1em 0.2em;
@@ -80,7 +79,10 @@ h2:after {
   background: linear-gradient(to right, rgb(65, 105, 225), transparent);
 }
 
-/* 新着情報 */
+h3 {
+  position: relative;
+  padding:12px 0px 0px 0px;
+}
 h3:before {
   content: '●';
   color: #4169e1;
