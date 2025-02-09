@@ -133,7 +133,7 @@ h4 {
 }
 .gyoumu .header2 {
         background-color: #F7F7F7;
-        padding-right: 42px; /* 必要なら調整 */
+        padding-right: 32px; /* 必要なら調整 */
 
 }
 .gyoumu .header3 {
@@ -143,7 +143,7 @@ h4 {
 }
 .gyoumu .header4 {
         background-color: #F7F7F7;
-        padding-right: 48px; /* 必要なら調整 */
+        padding-right: 54px; /* 必要なら調整 */
 
 }
 .contents_click_coin {
