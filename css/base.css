@@ -105,8 +105,8 @@ h4 {
         border: 1px solid #222222;
 }
 .skill td {
-        padding:  8px 5px 5px 15px;
-        height: 35px;  /* 行の最小高さを設定 */
+        padding:  5px 5px 5px 15px;
+        height: 35px;
         border: 1px solid #222222;
 }  
 .skill .header {
@@ -122,28 +122,28 @@ h4 {
         border: 1px solid #222222;
 }
 .gyoumu td {
-        padding:  8px 0px 5px 15px;
-        height: 35px;  /* 行の最小高さを設定 */
+        padding:  5px 0px 5px 15px;
+        height: 35px;
         border: 1px solid #222222;
 }  
 .gyoumu .header {
         background-color: #F7F7F7;
-        padding-right: 5px; /* 必要なら調整 */
+        padding-right: 5px;
 
 }
 .gyoumu .header2 {
         background-color: #F7F7F7;
-        padding-right: 32px; /* 必要なら調整 */
+        padding-right: 32px;
 
 }
 .gyoumu .header3 {
         background-color: #F7F7F7;
-        padding-right: 28px; /* 必要なら調整 */
+        padding-right: 28px;
 
 }
 .gyoumu .header4 {
         background-color: #F7F7F7;
-        padding-right: 54px; /* 必要なら調整 */
+        padding-right: 54px;
 
 }
 .contents_click_coin {
