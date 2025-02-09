@@ -1,0 +1,162 @@
+@charset "utf-8";
+* {
+        margin:0; padding:0;/*全要素の初期化*/
+}
+body {
+        background-color:#F0EBEB;
+        font-size:15px; /* フォントサイズを15ptにする */
+        color: #222222;
+        font-family: "メイリオ", Meiryo, "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "ＭＳ ゴシック", sans-serif;
+        line-height: 2.0; /* 行の高さ */
+}
+.pagebody {
+        width:960px; margin:0 auto; /*内容全体を中央揃え*/
+        background-color:#ffffff; /*内容全体の背景色*/
+}
+p {
+        font-size: 15px;
+        line-height: 2.0em;
+        padding:0px 0px 6px 25px;
+}
+
+/* ヘッダー */
+.header {
+        height:60px; /*高さ*/
+}
+.header h1 {
+        color:#222222;
+        background:#ffffff;
+        text-align:center; /*中央揃えにする*/
+        margin-top: 0;
+}
+
+/* メインメニュー */
+.menu {
+        font-weight: bold;
+        width:960px; height:50px; /*幅と高さ*/
+        margin:0px 0px;
+}
+.menu li {
+        list-style-type:none; /*マーカー無しにする*/
+        display:inline; /*インライン表示にする*/
+        float:left; /*横に並べる*/
+}
+.menu li a {
+        background:#E4E4E4;
+        display:block; /*リンク部分をブロック表示にする*/
+        width:240px; height:35px; /*幅と高さ*/
+        padding:10px 0px 0px 0px;
+        text-align:center; /*中央揃えにする*/
+        text-decoration:none; /*下線無し*/
+}
+.menu li a:hover {
+        text-decoration:underline; /*リンクにマウスが乗ったら下線を表示*/
+}
+
+/* インフォメーション */
+.info {
+        margin:0px 20px;
+}
+.infobox {
+        height: 64px; /*高さ*/
+        overflow: auto; /*スクロールバーを表示*/
+        background:#F7F7F7
+}
+.info a {
+        text-decoration:none; /*下線無し*/
+}
+.info a:hover{
+        text-decoration:underline; /*リンクにマウスが乗ったら下線を表示*/
+}
+
+h2 {
+  position: relative;
+  padding: 0.1em 0.2em;
+}
+h2:after {
+  content: "";
+  display: block;
+  height: 4px;
+  background: -webkit-linear-gradient(to right, #383838, #222222);
+  background: linear-gradient(to right, #383838, #222222);
+}
+
+h3 {
+  position: relative;
+  padding:12px 0px 0px 0px;
+}
+h3:before {
+  content: '■';
+  color: #222222;
+  margin-right: 8px;
+}
+
+h4 {
+        position: relative;
+        padding:0px 0px 0px 25px;
+}      
+
+.skill {
+        border-collapse: collapse;
+        width: 70%;
+        text-align: left;
+        margin-left: 3.5em;
+        padding:0px 0px 6px 25px;
+        border: 1px solid #222222;
+}
+.skill td {
+        padding:  8px 5px 5px 15px;
+        height: 35px;  /* 行の最小高さを設定 */
+        border: 1px solid #222222;
+}  
+.skill .header {
+        background-color: #F7F7F7;
+}
+
+.gyoumu {
+        border-collapse: collapse;
+        width: 70%;
+        text-align: left;
+        margin-left: 3.5em;
+        padding:0px 0px 6px 25px;
+        border: 1px solid #222222;
+}
+.gyoumu td {
+        padding:  8px 0px 5px 15px;
+        height: 35px;  /* 行の最小高さを設定 */
+        border: 1px solid #222222;
+}  
+.gyoumu .header {
+        background-color: #F7F7F7;
+        padding-right: 5px; /* 必要なら調整 */
+
+}
+.gyoumu .header2 {
+        background-color: #F7F7F7;
+        padding-right: 42px; /* 必要なら調整 */
+
+}
+.gyoumu .header3 {
+        background-color: #F7F7F7;
+        padding-right: 28px; /* 必要なら調整 */
+
+}
+.gyoumu .header4 {
+        background-color: #F7F7F7;
+        padding-right: 48px; /* 必要なら調整 */
+
+}
+.contents_click_coin {
+        margin:10px 0px 0px 25px;
+}
+
+.contents_today_dinner {
+        margin:10px 0px 0px 25px;
+}
+
+.footer {
+        height:30px;
+        padding:10px 0px 0px 0px;
+        font-size:12px;
+        text-align:center; /*中央揃えにする*/
+}

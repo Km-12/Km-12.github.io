@@ -4,97 +4,175 @@
 <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <link rel="stylesheet" href="base.css">
+        <link rel="stylesheet" href="./css/base.css">
         <title>プロフィール | Km-12's Page</title>
 </head>
 
 <body>
-        <div id="pagebody">
+        <div class="pagebody">
 
-                <div id="header">
+                <div class="header">
                         <!-- ヘッダー -->
                         <h1>Km-12's Page</h1>
                 </div>
 
                 <!-- メインメニュー -->
-                <ul id="menu">
+                <ul class="menu">
                         <li><a href="index.html">ホーム</a></li>
                         <li><a href="profile.html">自己紹介</a></li>
                         <li><a href="contents.html">作成物</a></li>
                         <li><a href="etc.html">その他</a></li>
                 </ul>
 
-                <div id="info">
+                <div class="info">
                         <!-- あれこれ -->
                         <h2>自己紹介</h2>
                         <h3>私について</h3>
                         <p>
-                                現在はJavaでの開発プロジェクトに参画。最近はPythonについて勉強中、データ分析など<br>
-                                模索しています。<br>
+                                現在はJavaの開発プロジェクトに参画。最近はPythonについても勉強、データ分析など<br>
+                                興味が有ります。<br>
                         </p>
                         <h3>スキル</h3>
-                        <h4>・経験したことのある言語</h4>
+                        <h4>・言語</h4>
                         <p>
-                                　　C、Java、SQL、HTML、CSS、MATLAB、JavaScript、XML、Python、Go
+                        <table class="skill">
+                                <tr>
+                                        <td class="header">業務経験有り</td>
+                                        <td>Java、SQL、HTML、CSS、JavaScript、Go</td>
+                                </tr>
+                                <tr>
+                                        <td class="header">経験有り</td>
+                                        <td>C、Python</td>
+                                </tr>
+                        </table>
+                        　　　　※一部経験有り：MATLAB、XML
                         </p>
-                        <h4>・最近取り組んでいる言語</h4>
+                        <h4>・保有資格</h4>
                         <p>
-                                　　Java, Python
-                        </p>
-                        <h3>興味があるもの</h3>
-                        <p>
-                                データ分析や統計、ゲーム制作に興味があります。
+                                　　ITパスポート<br>
+                                　　Oracle認定Javaプログラマ Bronze SE<br>
+                                　　Python3 エンジニア認定基礎試験、Python3 エンジニア認定データ分析試験、Python3 エンジニア認定実践試験
                         </p>
                         <h3>業務経歴</h3>
-                        <h4>・物流系宅配支援システム開発</h4>
+                        <h4>・物流系 宅配支援システム開発</h4>
+                        <p>
+                        <table class="gyoumu">
+                                <tr>
+                                        <td class="header">参画期間</td>
+                                        <td>3か月</td>
+                                </tr>
+                                <tr>
+                                        <td class="header">担当内容</td>
+                                        <td>プログラム製造、単体テスト</td>
+                                </tr>
+                                <tr>
+                                        <td class="header">開発環境</td>
+                                        <td>Windows7、PostgreSQL、Eclipse</td>
+                                </tr>
+                                <tr>
+                                        <td class="header">開発言語</td>
+                                        <td>Java、SQL、HTML、CSS、JavaScript</td>
+                                </tr>
+                                <tr>
+                                        <td class="header">その他</td>
+                                        <td>Git</td>
+                                </tr>
+                        </table>
+                        </p>
                         <p>
                                 　　初めてのプロジェクトでの開発でしたが、実装や単体テストなど経験することができました。
                         </p>
+                        <h4>・官公庁 総務省支援システム開発</h4>
                         <p>
-                                　　参画期間 : 3か月<br>
-                                　　担当内容 : プログラム製造、単体テスト<br>
-                                　　開発環境 : Windows7、PostgreSQL、Eclipse<br>
-                                　　開発言語 : Java、SQL、HTML、CSS、JavaScript<br>
-                                　　その他　 : Git
+                        <table class="gyoumu">
+                                <tr>
+                                        <td class="header2">参画期間</td>
+                                        <td>2年</td>
+                                </tr>
+                                <tr>
+                                        <td class="header2">担当内容</td>
+                                        <td>プログラム製造、単体テスト、結合テスト、調査分析</td>
+                                </tr>
+                                <tr>
+                                        <td class="header2">開発環境</td>
+                                        <td>Windows7、Windows10、DB2、プロジェクト独自ツール</td>
+                                </tr>
+                                <tr>
+                                        <td class="header2">開発言語</td>
+                                        <td>XML、HTML、Java、SQL</td>
+                                </tr>
+                                <tr>
+                                        <td class="header2">その他</td>
+                                        <td>Eclipse、TortoiseGit、CSE、Tera Term、WinSCP</td>
+                                </tr>
+                        </table>
                         </p>
-                        <h4>・官公庁向け支援システム開発</h4>
                         <p>
-                                　　プロジェクト独自のツールを用いて、画面定義となるXMLの改修を中心に行いました。<br>
-                                　　実装から結合テストまで経験することができました。与えられた仕事だけでなく、それに<br>
-                                　　含まれる事も想定して進めることを学びました。
+                                　　プロジェクト独自のツールを用いて、画面定義となるXMLの改修を中心に実装から結合テスト<br>
+                                　　までを担当しました。また、一部サーバーサイドの開発も行いました。<br>
+                                　　担当するアプリ開発のほか、それに含まれる処理も想定して調査分析することを経験しました。
+                        </p>
+                        <h4>・通信系 交換機システム共通部品開発</h4>
+                        <p>
+                        <table class="gyoumu">
+                                <tr>
+                                        <td class="header3">参画期間</td>
+                                        <td>1年</td>
+                                </tr>
+                                <tr>
+                                        <td class="header3">担当内容</td>
+                                        <td>基本設計、プログラム製造、単体テスト、調査分析</td>
+                                </tr>
+                                <tr>
+                                        <td class="header3">開発環境</td>
+                                        <td>Windows10、Linux(CentOS7.6-1810)、MongoDB<br>Tera Term、vi、Vim</td>
+                                </tr>
+                                <tr>
+                                        <td class="header3">開発言語</td>
+                                        <td>Go</td>
+                                </tr>
+                                <tr>
+                                        <td class="header3">その他</td>
+                                        <td>Git、TortoiseSVN</td>
+                                </tr>
+                        </table>
                         </p>
                         <p>
-                                　　参画期間 : 2年<br>
-                                　　担当内容 : プログラム製造、単体テスト、結合テスト、調査分析<br>
-                                　　開発環境 : Windows7、Windows10、DB2、独自の開発ツール<br>
-                                　　開発言語 : XML、HTML、Java、SQL<br>
-                                　　その他　 : Eclipse、TortoiseGit、CSE、Tera Term、WinSCP
+                                　　バックエンド中心の開発で、基本設計、実装から単体テストを担当しました。<br>
+                                　　アジャイルで決められた期間の中でどのように担当業務を進めるのか、設計から単体テスト<br>
+                                　　ケース作成までを検討計画する大切さを実感しました。<br>
                         </p>
-                        <h4>・通信系システム共通部品開発</h4>
+                        <h4>・業務系 給与計算支援システム開発</h4>
                         <p>
-                                　　バックエンドの開発で、実装から単体テスト、基本設計も経験することができました。アジャイルで<br>
-                                　　決められた期間でどのように進めるのか計画する大切さを学びました。<br>
+                        <table class="gyoumu">
+                                <tr>
+                                        <td class="header4">参画期間</td>
+                                        <td>参画中（3年目）</td>
+                                </tr>
+                                <tr>
+                                        <td class="header4">担当内容</td>
+                                        <td>基本設計、プログラム製造、単体テスト、結合テスト、調査分析</td>
+                                </tr>
+                                <tr>
+                                        <td class="header4">開発環境</td>
+                                        <td>Windows10、Oracle、MongoDB、Eclipse
+                                </tr>
+                                <tr>
+                                        <td class="header4">開発言語</td>
+                                        <td>Java, JavaScript, HTML, CSS</td>
+                                </tr>
+                                <tr>
+                                        <td class="header4">その他</td>
+                                        <td>TortoiseGit</td>
+                                </tr>
+                        </table>
                         </p>
-                        <p>
-                                　　参画期間 : 1年<br>
-                                　　担当内容 : 基本設計、プログラム製造、単体テスト、調査分析<br>
-                                　　開発環境 : Windows10、Linux(CentOS7.6-1810)、MongoDB、Tera Term、vi、Vim<br>
-                                　　開発言語 : Go<br>
-                                　　その他　 : Git、TortoiseSVN
-                        </p>
-                        <h4>・給与計算支援システム開発</h4>
                         <p>
                                 　　画面や非同期処理の開発、基本設計と実装から単体テストを担当しています。受入結合テスト、<br>
-                                　　アプリケーション概要書作成など、本番環境での不具合調査も行っています。<br>
+                                　　アプリケーション概要書作成、本番環境での不具合調査も行っています。<br>
+                                　　パフォーマンスを意識した簡潔なソースコードの作成方法を学ぶほか、不具合調査では少ない<br>
+                                　　ヒントからログの解析や再現テストなどのアプローチで、解決に導くことを経験しました。
                         </p>
-                        <p>
-                                　　参画期間 : 参画中（3年目）<br>
-                                　　担当内容 : 基本設計、プログラム製造、単体テスト、結合テスト、調査分析<br>
-                                　　開発環境 : Windows10、Oracle、MongoDB、Eclipse<br>
-                                　　開発言語 : Java, JavaScript, HTML, CSS<br>
-                                　　その他　 : TortoiseGit
-                        </p>
-
                         <h3>趣味</h3>
                         <p>
                                 野球観戦、音楽鑑賞、etc
@@ -102,7 +180,7 @@
                 </div>
 
                 <!-- フッター -->
-                <div id="footer">
+                <div class="footer">
                         <small>Copyright (c) Km-12 All Rights Reserved.</small>
                 </div>
 
