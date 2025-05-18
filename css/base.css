@@ -113,6 +113,19 @@ h4 {
         background-color: #F7F7F7;
 }
 
+.shikaku {
+        border-collapse: collapse;
+        width: 50%;
+        text-align: left;
+        margin-left: 3.5em;
+        padding:0px 0px 6px 25px;
+        border: 1px solid #222222;
+}
+.shikaku td {
+        padding:  5px 5px 5px 15px;
+        height: 35px;
+        border: 1px solid #222222;
+}  
 .gyoumu {
         border-collapse: collapse;
         width: 70%;
@@ -146,11 +159,12 @@ h4 {
         padding-right: 54px;
 
 }
-.contents_click_coin {
-        margin:10px 0px 0px 25px;
-}
+.gyoumu .header5 {
+        background-color: #F7F7F7;
+        padding-right: 0px;
 
-.contents_today_dinner {
+}
+.contents {
         margin:10px 0px 0px 25px;
 }
 
