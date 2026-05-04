@@ -141,31 +141,49 @@ h4 {
 }  
 .gyoumu .header {
         background-color: #F7F7F7;
-        padding-right: 12px;
+        padding-right: 65px;
 
 }
 .gyoumu .header2 {
         background-color: #F7F7F7;
-        padding-right: 38px;
+        padding-right: 60px;
 
 }
 .gyoumu .header3 {
         background-color: #F7F7F7;
-        padding-right: 35px;
+        padding-right: 60px;
 
 }
 .gyoumu .header4 {
         background-color: #F7F7F7;
-        padding-right: 65px;
+        padding-right: 60px;
 
 }
 .gyoumu .header5 {
         background-color: #F7F7F7;
-        padding-right: 0px;
+        padding-right: 60px;
 
 }
 .contents {
-        margin:10px 0px 0px 25px;
+        border-collapse: collapse;
+        width: 70%;
+        text-align: left;
+        margin-left: 3.5em;
+        padding:0px 0px 6px 25px;
+        border: 1px solid #222222;
+}
+.contents td {
+        padding:  5px 0px 5px 15px;
+        height: 35px;
+        border: 1px solid #222222;
+}  
+.contents .header {
+        background-color: #F7F7F7;
+        padding-right: 55px;
+
+}
+.video_gif {
+        margin:10px 0px 0px 50px;
 }
 
 .footer {
