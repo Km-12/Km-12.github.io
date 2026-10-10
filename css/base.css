@@ -128,58 +128,61 @@ h4 {
 }  
 .gyoumu {
         border-collapse: collapse;
-        width: 70%;
+        width: 75%;
         text-align: left;
         margin-left: 3.5em;
         padding:0px 0px 6px 25px;
         border: 1px solid #222222;
 }
 .gyoumu td {
-        padding:  5px 0px 5px 15px;
+        padding:  5px 15px 5px 15px;
         height: 35px;
         border: 1px solid #222222;
+        line-break: strict;
+        word-break: auto-phrase;
 }  
 .gyoumu .header {
         background-color: #F7F7F7;
-        padding-right: 65px;
-
+        padding-right: 40px;
+        white-space: nowrap;
 }
 .gyoumu .header2 {
         background-color: #F7F7F7;
-        padding-right: 60px;
-
+        padding-right: 40px;
+        white-space: nowrap;
 }
 .gyoumu .header3 {
         background-color: #F7F7F7;
-        padding-right: 60px;
-
+        padding-right: 40px;
+        white-space: nowrap;
 }
 .gyoumu .header4 {
         background-color: #F7F7F7;
-        padding-right: 60px;
-
+        padding-right: 40px;
+        white-space: nowrap;
 }
 .gyoumu .header5 {
         background-color: #F7F7F7;
-        padding-right: 60px;
-
+        padding-right: 40px;
+        white-space: nowrap;
 }
 .contents {
         border-collapse: collapse;
-        width: 70%;
+        width: 77%;
         text-align: left;
         margin-left: 3.5em;
         padding:0px 0px 6px 25px;
         border: 1px solid #222222;
 }
 .contents td {
-        padding:  5px 0px 5px 15px;
+        padding:  5px 15px 5px 15px;
         height: 35px;
         border: 1px solid #222222;
 }  
 .contents .header {
         background-color: #F7F7F7;
         padding-right: 55px;
+        white-space: nowrap;
 
 }
 .video_gif {
